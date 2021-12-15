@@ -1,0 +1,35 @@
+@import "./index.css";
+
+.paddle {
+  --position: 50;
+
+  position: absolute;
+  background-color: var(--foreground-color);
+  width: 1vh;
+  height: 10vh;
+  top: calc(var(--position) * 1vh);
+  transform: translateY(-50%);
+}
+
+.paddle.left {
+  left: 1vw;
+}
+
+.paddle.right {
+  right: 1vw;
+}
+
+.ball {
+  --x: 50;
+  --y: 50;
+  position: absolute;
+  background-color: var(--foreground-color);
+  width: 1vh;
+  height: 10vh;
+  left: calc(var(--x) * 1vw);
+  top: calc(var(--y) * 1vh);
+  width: 2.5vh;
+  height: 2.5vh;
+  transform: translateY(-50%, -50%);
+  border-radius: 50%;
+}
