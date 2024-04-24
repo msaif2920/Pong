@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Example Corp.//Outlook MIMEDIR//EN
+BEGIN:VEVENT
+DTSTART:20240425T090000Z
+DTEND:20240425T100000Z
+SUMMARY:Meeting with John Doe
+DESCRIPTION:Discuss project updates.
+LOCATION:Office Conference Room
+ORGANIZER:mailto:organizer@example.com
+ATTENDEE;RSVP=TRUE:mailto:john.doe@example.com
+X-APPLE-CALENDAR-COLOR:#ff5733
+URL;VALUE=URI:webcal://www.example.com/calendar.ics
+END:VEVENT
+END:VCALENDAR
